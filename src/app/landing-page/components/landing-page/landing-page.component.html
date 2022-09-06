@@ -1,0 +1,52 @@
+<h2>
+    Landing page
+</h2>
+
+<div class="main-content">
+    <a routerLink="facesnaps">
+        <img id="img-link" src="/assets/img/snapface.png" alt="Continuer vers Snapface">
+    </a>
+    <button (click)="onContinue()">Continuer vers Snapface</button>
+    <br><br>
+    <hr><br>
+    <form #emailForm="ngForm" (ngSubmit)="onSubmitForm(emailForm)">
+        <label for="emailInput">Inscrivez-vous pour recevoir notre newsletter :</label>
+        <br>
+        <br>
+        <input id="emailInput" name="userEmail" type="email" [(ngModel)]="userEmail">
+        <button type="submit">OK!</button>
+    </form>
+</div>
+
+<!-- <h2>Lorem ipsum</h2>
+
+<div class="content">
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit quam erat, mattis pharetra ipsum finibus in. Nam blandit tempor accumsan. Donec aliquet convallis volutpat. In vel dui neque. Proin dictum rhoncus magna, sed tempor dui lobortis
+        pellentesque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas euismod volutpat diam, quis mattis erat porta eget. Vivamus ut nisl nec erat consectetur vestibulum. Praesent quis volutpat enim, bibendum ullamcorper orci.
+    </p>
+
+    <p>Nullam pellentesque vel ligula viverra aliquam. Nullam pulvinar massa ut elit malesuada tincidunt. Donec vel nulla commodo, rhoncus sem in, ullamcorper felis. Cras volutpat rhoncus pellentesque. Nunc cursus ante non sollicitudin maximus. Sed sodales
+        nisi ut luctus vulputate. Ut non odio imperdiet, auctor augue imperdiet, hendrerit mauris. Suspendisse accumsan aliquet semper. Nunc viverra enim sed ex ultricies, sit amet ultricies nibh ullamcorper. Praesent neque nisl, pulvinar a rutrum in,
+        posuere vitae justo. Proin a aliquet enim.
+    </p>
+
+    <p>
+        Suspendisse a quam ac eros venenatis congue sed sed sapien. Suspendisse diam dolor, scelerisque et accumsan vel, auctor nec nunc. Vestibulum commodo, mauris vel pulvinar vestibulum, sapien lectus consequat est, non efficitur metus quam sed est. Praesent
+        aliquet metus id volutpat iaculis. Morbi tellus velit, feugiat sit amet vulputate ac, lobortis vitae neque. Sed erat mauris, mattis non urna ut, mattis semper justo. Nullam sagittis, mi eu accumsan imperdiet, risus ex finibus purus, at lacinia
+        ex leo a leo. In vel dolor sollicitudin, lacinia nisl ut, consequat nisl. Maecenas auctor lorem id dolor consequat ullamcorper. Praesent ut dapibus nisl. In vel mattis nibh. Fusce congue odio arcu, nec luctus urna convallis id. Pellentesque habitant
+        morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce quam erat, laoreet sed gravida ut, egestas eu nisi. Etiam et massa pharetra, euismod lorem id, malesuada erat. Donec gravida imperdiet egestas.
+    </p>
+
+    <p>
+        Nam luctus nunc sit amet aliquam viverra. Maecenas consectetur sollicitudin metus, ut ornare nibh. Morbi tempor mollis condimentum. Nulla fringilla, tortor sit amet tempor feugiat, nisi quam porttitor nunc, in lacinia nisl quam egestas dui. Phasellus
+        euismod ligula vitae ligula laoreet, et semper odio rutrum. Aliquam auctor nisi et odio tristique accumsan. Donec mattis augue eget ante luctus, id ornare turpis sodales. Fusce vel varius metus. Phasellus in gravida nisi, eget eleifend tortor.
+        Suspendisse elementum eget arcu id feugiat. Maecenas a sollicitudin dui. Duis condimentum cursus eros, quis euismod nibh imperdiet sed. Aliquam ut erat quis mi vestibulum rhoncus. Cras consectetur sapien id venenatis
+    </p>
+
+    <p>
+        consectetur. In faucibus lobortis enim, non aliquam justo aliquam vitae. Morbi tellus nisl, condimentum vel sollicitudin lobortis, facilisis eu turpis. Nullam fringilla eget odio eu imperdiet. Integer vel ligula ex. Suspendisse iaculis eros et vestibulum
+        semper. Nam eu nisi quis magna feugiat faucibus vitae eu nunc. Nullam aliquam ac sapien sit amet cursus. Quisque id tristique metus. Integer vitae faucibus metus, et malesuada ex. Quisque quis sem dolor. Nulla facilisi. Phasellus nulla elit, commodo
+        ut ultricies nec, laoreet eget dolor. Phasellus mollis dui est, quis congue leo facilisis et. Maecenas id libero felis.
+    </p> 
+</div> -->

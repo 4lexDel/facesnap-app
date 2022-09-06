@@ -1,0 +1,36 @@
+h2 {
+    text-align: center;
+}
+
+.content {
+    width: 70%;
+    padding: 10px 30px;
+    margin: 20px auto;
+    box-shadow: lightgray 4px 4px 20px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.main-content {
+    margin: 20px auto;
+    width: 50%;
+    #img-link {
+        width: 100%;
+    }
+}
+
+button {
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: lightgray 3px 3px 7px;
+    margin-right: 20px;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+    &:active {
+        transform: translate(1px, 1px);
+        box-shadow: lightgray 0 0 5px;
+    }
+}

@@ -1,0 +1,13 @@
+---------------------------------------------------Bugs---------------------------------------------------
+
+Snap de l'infini :
+- Snap d'un facesnap
+- retour
+- selection du meme facesnap
+                                ==> Résolution stocké les users et les snap effectué (stocké une liste d'id ????)
+
+
+---------------------------------------------------A faire---------------------------------------------------
+    Interceptors : https://openclassrooms.com/fr/courses/7471271-completez-vos-connaissances-sur-angular/7549541-securisez-vos-requetes
+    Guard : https://openclassrooms.com/fr/courses/7471271-completez-vos-connaissances-sur-angular/7549561-controlez-les-acces-avec-les-guards
+
